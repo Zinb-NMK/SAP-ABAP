@@ -1,0 +1,28 @@
+* REPORT IS USED TO CREATE A EXECUTABLE PROGRAM IN ABAP.
+REPORT zabap_day_2_pro1. 
+
+
+" THIS IS A SIMPLE ABABP PROGRAM OF ADDING TWO NUMS
+DATA lv_nUm1 TYPE i. " lv_num1 IS A VARIABLE OF TYPE INTEGER.
+DATA lv_num2 TYPE i.
+DATA lv_add TYPE i.
+
+lv_add = lv_num1 + lv_num2.
+
+WRITE lv_add. " WRITE IS USED TO DISPLAY THE OUTPUT ON SCREEN.
+
+
+
+
+" HEAR I AM TAKING MULTILINE DATA 
+
+DATA : a TYPE i,
+b TYPE i,
+c TYPE i.
+
+a = 10.
+B = 20.
+
+c = a + b.
+
+WRITE c.
